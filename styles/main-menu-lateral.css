@@ -1,0 +1,14 @@
+.main-lateral {
+    display: grid;
+    grid-template-areas: "nav  main";
+    grid-template-columns: 150px 1fr;  
+}
+
+.container>nav {
+    grid-area: nav;
+}
+
+.container>main {
+    grid-area: main;
+}
+

@@ -1,0 +1,21 @@
+/* ESTILIZAÇÃO DE CONTAINER BÁSICO */
+
+.container {
+    min-height: 50vh;
+    display: grid;
+    grid-template-areas: "head head" "main  main" "foot  foot";
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 50px 1fr 60px;   
+}
+
+.container>header {
+    grid-area: head;
+}
+
+.container>main {
+    grid-area: main;
+}
+
+.container>footer {
+    grid-area: foot;
+}
